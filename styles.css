@@ -1,19 +1,14 @@
 #display{
- 
     background-color:rgb(43, 42, 42);
     border: none;
     padding: 20px;
     color: aliceblue;
     font-size: 40px;
     width: 90%;
-    
-
 }
-
 h1{
     font-size: 50px;
 }
-
 #calculator{
     background-color:black;
     max-width: 500px;
@@ -21,15 +16,12 @@ h1{
     padding: 30px;
     overflow: hidden;
 }
-
 #keys{
     display:grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
-    padding: 20px;
-    
+    padding: 20px;  
 }
-
 button{
     width: 100px;
     height: 100px;
